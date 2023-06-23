@@ -8,7 +8,7 @@ variable "secret_key" {
 
 variable "instance_name" {
         description = "Name of the instance to be created"
-        default = "awsbuilder-demo"
+        default = "Github-demo"
 }
 
 variable "instance_type" {
@@ -17,12 +17,12 @@ variable "instance_type" {
 
 variable "subnet_id" {
         description = "The VPC subnet the instance(s) will be created in"
-        default = "subnet-07ebbe60"
+        default = "subnet-06f425b26c12924df"
 }
 
 variable "ami_id" {
         description = "The AMI to use"
-        default = "ami-09d56f8956ab235b3"
+        default = "ami-053b0d53c279acc90"
 }
 
 variable "number_of_instances" {
@@ -32,5 +32,5 @@ variable "number_of_instances" {
 
 
 variable "ami_key_pair_name" {
-        default = "tomcat"
+        default = "new pair"
 }
