@@ -1,14 +1,14 @@
 variable "access_key" {
-        description = "AKIA6D2C7JP2FX3UIDEW"
+        description = "Access key to AWS console"
 }
 variable "secret_key" {
-        description = "/qRsGuJJXPCD8kY0Y1uC/9+YDkkN11yLCt8guO+n"
+        description = "Secret key to AWS console"
 }
 
 
 variable "instance_name" {
         description = "Name of the instance to be created"
-        default = "Github-demo"
+        default = "9696-demo"
 }
 
 variable "instance_type" {
@@ -22,7 +22,7 @@ variable "subnet_id" {
 
 variable "ami_id" {
         description = "The AMI to use"
-        default = "ami-053b0d53c279acc90"
+        default = "ami-0261755bbcb8c4a84"
 }
 
 variable "number_of_instances" {
