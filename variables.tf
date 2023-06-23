@@ -1,8 +1,8 @@
 variable "access_key" {
-        description = "Access key to AWS console"
+        description = "AKIA6D2C7JP2FX3UIDEW"
 }
 variable "secret_key" {
-        description = "Secret key to AWS console"
+        description = "/qRsGuJJXPCD8kY0Y1uC/9+YDkkN11yLCt8guO+n"
 }
 
 
